@@ -10,4 +10,4 @@ print "Type something, and it will be echoed back."
 print ""
 
 while True:
-    print(input(">>> "))
+    print input(">>> ")
