@@ -9,3 +9,7 @@ This is an Operating System based on Intel's open-source BIOS Implementation Tes
 
 [BITS Homepage](https://biosbits.org/ "BIOS Implementation Test Suite")  
 [SysLinux Wiki](https://www.syslinux.org/wiki/index.php?title=The_Syslinux_Project "Syslinux Wiki")
+
+### Building BITS-PyOS to a USB Drive
+
+Follow the instructions in the 'how2build2usb.txt' file.
