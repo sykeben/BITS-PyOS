@@ -4,10 +4,15 @@ pg.clear()
 print "BITS-PyOS Console"
 print "(C) 2018 Benjamin Sykes."
 print ""
-
-print "### ECHO-BACK DEMO ###"
-print "Type something, and it will be echoed back."
+print "Loading libraries . . ."
+print "- \"sleep\" from \"time\""
+from time import sleep
 print ""
 
+print "### COUNTING UP DEMO ###"
+print "There is no true kernel for PyOS yet, so this just shows that it works."
+n = 0
 while True:
-    print input(">>> ")
+    n += 1
+    print str(n)
+	sleep(1)
