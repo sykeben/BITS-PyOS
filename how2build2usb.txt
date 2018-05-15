@@ -1,5 +1,9 @@
 HOW TO BUILD BITS-PYOS TO A USB DRIVE
 
-[1] Follow the instructions in "INSTALL.TXT" in the "bits" directory, using the SysLinux files from the "syslinux" directory to install the modified BITS to a USB drive.
+[1] Follow the instructions in "INSTALL.TXT" in the "bits" directory, using the SysLinux files
+     from the "syslinux" directory to install the modified BITS to a USB drive.
+
 [2] Make a folder in the root of the USB drive called "pyos".
-[3] Copy all the files and folders from the "pycode" directory to the "pyos" folder on the USB drive.
+
+[3] Copy all the files and folders from the "pycode" directory to the "pyos" folder on the USB
+     drive.
