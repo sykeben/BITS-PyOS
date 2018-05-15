@@ -1,4 +1,4 @@
-import pos-general as pg
+import posgeneral as pg
 
 pg.clear()
 print "BITS-PyOS Console"
