@@ -1,0 +1,214 @@
+squash4: xzio gzio lzopio fshelp
+search_fs_uuid:
+legacycfg: linux gcry_md5 crypto password normal
+date: datetime normal
+bfs:
+uhci: pci usb
+multiboot2: boot video acpi relocator mmap lsapm vbe
+gcry_twofish: crypto
+cpio_be:
+cmostest:
+priority_queue:
+gcry_rijndael: crypto
+freedos: boot video relocator
+echo: extcmd
+cpio:
+xzio: crypto
+part_sun:
+gcry_sha512: crypto
+gcry_cast5: crypto
+boot:
+odc:
+ls: extcmd normal
+gzio:
+video:
+test_blockarg: extcmd normal
+mcu: extcmd python
+gfxterm: video extcmd bitmap_scale bitmap font
+gcry_tiger: crypto
+gcry_serpent: crypto
+aout:
+gcry_blowfish: crypto
+trig:
+plan9: boot video extcmd relocator
+extcmd:
+at_keyboard: boot keylayouts
+videoinfo: video
+pxe: boot net
+minix:
+keylayouts:
+xnu_uuid: gcry_md5
+usbtest: usb
+usbms: usb scsi
+reboot: relocator
+help: extcmd normal
+part_msdos:
+http: net
+gdb: backtrace serial
+blocklist:
+probe: extcmd
+pbkdf2: crypto
+gcry_rfc2268: crypto
+gcry_camellia: crypto
+fat:
+exfctest: functional_test
+pci:
+parttool: normal
+lzopio: crypto
+linux: boot video relocator mmap vbe normal
+gcry_md4: crypto
+zfsinfo: zfs
+usb_keyboard: keylayouts usb
+python: extcmd datetime mmap normal
+pxechain: boot video pxe relocator
+gcry_md5: crypto
+fshelp:
+ehci: boot pci usb cs5536
+bitmap_scale: bitmap
+ata: scsi
+datetime:
+usbserial_common: usb serial
+net: priority_queue boot datetime bufio
+gcry_des: crypto
+time:
+reiserfs: fshelp
+dm_nv: diskfilter
+datehook: datetime normal
+mdraid09_be: diskfilter
+efiemu: acpi gcry_crc
+backtrace:
+ahci: boot pci ata
+kernel:
+video_cirrus: video pci video_fb
+part_plan:
+gcry_seed: crypto
+minix_be:
+crypto:
+test:
+terminal:
+part_dvh:
+lsacpi: extcmd acpi
+jpeg: bufio bitmap
+bsd: boot video aout extcmd gcry_md5 cpuid elf relocator serial mmap vbe
+memdisk:
+gfxmenu: video gfxterm trig bitmap_scale bitmap normal font
+cmp:
+acpi: extcmd mmap
+xfs: fshelp
+elf:
+cpuid: extcmd
+affs: fshelp
+usb: pci
+videotest: video gfxmenu font
+testload:
+relocator: mmap
+play:
+adler32: crypto
+password: crypto normal
+part_sunpc:
+video_fb: video
+tftp: priority_queue net
+sleep: extcmd normal
+serial: extcmd terminfo
+search_fs_file:
+gcry_sha256: crypto
+gcry_rmd160: crypto
+exfat:
+search: search_fs_uuid extcmd search_fs_file search_label
+mdraid09: diskfilter
+chain: boot video relocator
+memrw: extcmd
+cs5536: pci
+password_pbkdf2: gcry_sha512 pbkdf2 crypto normal
+mdraid1x: diskfilter
+linux16: boot video relocator mmap
+gcry_crc: crypto
+configfile: normal
+zfscrypt: gcry_rijndael extcmd pbkdf2 crypto zfs gcry_sha1
+raid5rec: diskfilter
+gcry_arcfour: crypto
+sendkey: boot extcmd
+minix2_be:
+gettext:
+hello: extcmd
+vga_text:
+usbserial_pl2303: usbserial_common usb serial
+hashsum: extcmd crypto normal
+regexp: extcmd normal
+part_gpt:
+ohci: boot pci usb cs5536
+gptsync:
+zfs: gzio
+part_apple:
+hdparm: extcmd
+bufio:
+btrfs: gzio lzopio
+bitmap:
+true:
+terminfo: extcmd
+romfs: fshelp
+ntfscomp: ntfs
+hfs:
+biosdisk:
+ufs1:
+ntldr: boot video relocator chain
+setjmp:
+ufs2:
+nilfs2: fshelp
+lsmmap:
+gcry_sha1: crypto
+mmap: boot
+tar:
+png: bufio bitmap
+lspci: extcmd pci
+hfsplus: fshelp
+tga: bufio bitmap
+minix2:
+setpci: extcmd pci
+scsi:
+pata: pci ata
+minix3:
+lvm: diskfilter
+lsapm:
+functional_test: extcmd
+iso9660: fshelp
+crc64: crypto
+vbe: video video_fb
+udf: fshelp
+search_label:
+raid6rec: diskfilter
+msdospart: parttool
+minix3_be:
+halt: extcmd acpi
+xnu: boot video extcmd bitmap_scale efiemu relocator bitmap
+read:
+multiboot: boot video net relocator mmap lsapm vbe
+keystatus: extcmd
+cryptodisk: extcmd crypto
+normal: boot extcmd crypto terminal gettext
+geli: gcry_sha512 pbkdf2 crypto gcry_sha256 cryptodisk
+video_bochs: video pci video_fb
+sfs: fshelp
+part_amiga:
+luks: pbkdf2 crypto cryptodisk
+loopback: extcmd
+jfs:
+part_acorn:
+newc:
+iorw: extcmd
+cat: extcmd
+afs:
+ldm: part_gpt diskfilter
+hexdump: extcmd
+usbserial_ftdi: usbserial_common usb serial
+minicmd:
+loadenv: extcmd
+gcry_whirlpool: crypto
+drivemap: boot extcmd mmap
+vga: video video_fb
+part_bsd: part_msdos
+font: video bufio
+ext2: fshelp
+diskfilter:
+ntfs: fshelp
+all_video: vbe vga video_bochs video_cirrus
