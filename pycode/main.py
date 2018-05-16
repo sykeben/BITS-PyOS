@@ -15,7 +15,7 @@ print ""
 
 print "### COUNTING UP DEMO ###"
 print "This will count from 0 to 10."
-for n in range(0, 10)
+for n in range(0, 10):
     n = n + 1
     print str(n)
     sleep(0.25)
