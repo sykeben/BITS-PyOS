@@ -20,18 +20,18 @@ sleep(2.5)
 
 quitCall = False
 current = "main"
-while !quitCall:
+while not quitCall:
     
     while current == "main":
         cls()
-        print "###### MAIN MENU ######"
-        print "# [0] Quit            #"
-        print "# [1] Applications    #"
-        print "# [2] Information     #"
-        print "#######################"
-        print "Press a corrisponding key . . ."
+        print " ###### MAIN MENU ######"
+        print " # [0] Quit            #"
+        print " # [1] Applications    #"
+        print " # [2] Information     #"
+        print " #######################"
+        print " Press a corrisponding key . . ."
         moveOn = False
-        while !moveOn:
+        while not moveOn:
             key = str(binput.get_key().key)
             if key == "0":
                 quitCall = True
@@ -43,21 +43,21 @@ while !quitCall:
             elif key == "2":
                 moveOn = True
                 cls()
-                print "###### ERROR ######"
-                print "# Feature not     #"
-                print "# installed.      #"
-                print "###################"
-                print "Closing in 3 seconds . . ."
+                print " ###### ERROR ######"
+                print " # Feature not     #"
+                print " # installed.      #"
+                print " ###################"
+                print " Closing in 3 seconds . . ."
                 sleep(3)
     
     while current == "apps":
         cls()
-        print "###### APPLICATIONS ######"
-        print "# [0] Back               #"
-        print "##########################"
-        print "Press a corrisponding key . . ."
+        print " ###### APPLICATIONS ######"
+        print " # [0] Back               #"
+        print " ##########################"
+        print " Press a corrisponding key . . ."
         moveOn = False
-        while !moveOn:
+        while not moveOn:
             key = str(binput.get_key().key)
             if key == "0":
                 current = "main"
