@@ -1,27 +1,64 @@
-import posgeneral as pg
-
-pg.clear()
 print "BITS-PyOS Console"
 print "(C) 2018 Benjamin Sykes."
 print ""
+
 print "Loading libraries . . ."
-print "- \"sleep\" from \"time\""
+print "- input from bits"
+from bits import input as binput
+print "- sleep from time"
 from time import sleep
 print ""
 
-print "There is no true kernel for PyOS yet,"
-print "so the following demos show that it works."
+print "Defining functions . . ."
+print "- cls"
+def cls():
+    print "\n"*150
 print ""
 
-print "### COUNTING UP DEMO ###"
-print "This will count from 0 to 10."
-for n in range(0, 10):
-    n = n + 1
-    print str(n)
-    sleep(0.25)
-print ""
+print "WARNING: This is a WIP."
+sleep(2.5)
 
-print "### SYSTEM INFO DEMO ###"
-print "Not implimented yet!"
-print "Exiting in 3 seconds . . ."
-sleep(3)
+quitCall = False
+current = "main"
+while !quitCall:
+    
+    while current == "main":
+        cls()
+        print "###### MAIN MENU ######"
+        print "# [0] Quit            #"
+        print "# [1] Applications    #"
+        print "# [2] Information     #"
+        print "#######################"
+        print "Press a corrisponding key . . ."
+        moveOn = False
+        while !moveOn:
+            key = str(binput.get_key().key)
+            if key == "0":
+                quitCall = True
+                current = "quit"
+                moveOn = True
+            elif key == "1":
+                current = "apps"
+                moveOn = True
+            elif key == "2":
+                moveOn = True
+                cls()
+                print "###### ERROR ######"
+                print "# Feature not     #"
+                print "# installed.      #"
+                print "###################"
+                print "Closing in 3 seconds . . ."
+                sleep(3)
+    
+    while current == "apps":
+        cls()
+        print "###### APPLICATIONS ######"
+        print "# [0] Back               #"
+        print "##########################"
+        print "Press a corrisponding key . . ."
+        moveOn = False
+        while !moveOn:
+            key = str(binput.get_key().key)
+            if key == "0":
+                current = "main"
+                moveOn = True
