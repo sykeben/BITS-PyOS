@@ -16,13 +16,14 @@ def cls():
 print ""
 
 print "WARNING: This is a WIP."
-sleep(2.5)
+sleep(1)
 
 quitCall = False
 current = "main"
 while not quitCall:
     
     while current == "main":
+        
         cls()
         print " ###### MAIN MENU ######"
         print " # [0] Quit            #"
@@ -30,6 +31,7 @@ while not quitCall:
         print " # [2] Information     #"
         print " #######################"
         print " Press a corrisponding key . . ."
+        
         moveOn = False
         while not moveOn:
             key = str(binput.get_key().key)
@@ -44,21 +46,39 @@ while not quitCall:
                 moveOn = True
                 cls()
                 print " ###### ERROR ######"
-                print " # Feature not     #"
-                print " # installed.      #"
+                print " #   Feature not   #"
+                print " #    installed    #"
                 print " ###################"
-                print " Closing in 3 seconds . . ."
-                sleep(3)
+                print " Press any key . . ."
+                binput.get_key()
     
     while current == "apps":
+        
         cls()
         print " ###### APPLICATIONS ######"
         print " # [0] Back               #"
+        print " # [1] Test Application   #"
         print " ##########################"
         print " Press a corrisponding key . . ."
+        
         moveOn = False
+        currentApp = "none"
         while not moveOn:
             key = str(binput.get_key().key)
             if key == "0":
                 current = "main"
+                currentApp = "quit"
                 moveOn = True
+            if key == "1":
+                currentApp = "testapp"
+                moveOn = True
+        
+        if currentApp == "testapp":
+            
+            cls()
+            print " ~##### TEST APPLICATION #####~"
+            print ""
+            print " #     #\n #     # ###### #      #       ####\n #     # #      #      #      #    #\n ####### #####  #      #      #    #\n #     # #      #      #      #    # ###\n #     # #      #      #      #    # ###\n #     # ###### ###### ######  ####   #\n                                     #\n \n #     #                             ###\n #  #  #  ####  #####  #      #####  ###\n #  #  # #    # #    # #      #    # ###\n #  #  # #    # #    # #      #    #  #\n #  #  # #    # #####  #      #    #\n #  #  # #    # #   #  #      #    # ###\n  ## ##   ####  #    # ###### #####  ###"
+            print ""
+            print " ~#### Press any key . . . ###~"
+            binput.get_key()
