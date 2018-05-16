@@ -1,5 +1,9 @@
-print "BITS-PyOS Console"
-print "(C) 2018 Benjamin Sykes."
+version = "0.0.3"
+copyrightYear = "2018"
+copyrightHolder = "Benjamin Sykes"
+
+print "BITS-PyOS Version {0}".format(version)
+print "(C) {0} {1}.".format(copyrightYear, copyrightHolder)
 print ""
 
 print "Loading libraries . . ."
@@ -44,13 +48,7 @@ while not quitCall:
                 moveOn = True
             elif key == "2":
                 moveOn = True
-                cls()
-                print " ###### ERROR ######"
-                print " #   Feature not   #"
-                print " #    installed    #"
-                print " ###################"
-                print " Press any key . . ."
-                binput.get_key()
+                current = "info"
     
     while current == "apps":
         
@@ -76,9 +74,22 @@ while not quitCall:
         if currentApp == "testapp":
             
             cls()
-            print " ~##### TEST APPLICATION #####~"
+            print " ~####### TEST APPLICATION #######~"
             print ""
             print " #     #\n #     # ###### #      #       ####\n #     # #      #      #      #    #\n ####### #####  #      #      #    #\n #     # #      #      #      #    # ###\n #     # #      #      #      #    # ###\n #     # ###### ###### ######  ####   #\n                                     #\n \n #     #                             ###\n #  #  #  ####  #####  #      #####  ###\n #  #  # #    # #    # #      #    # ###\n #  #  # #    # #    # #      #    #  #\n #  #  # #    # #####  #      #    #\n #  #  # #    # #   #  #      #    # ###\n  ## ##   ####  #    # ###### #####  ###"
             print ""
-            print " ~#### Press any key . . . ###~"
+            print " ~###### Press any key . . . #####~"
             binput.get_key()
+    
+    while current == "info":
+        
+        cls()
+        print " ~####### INFORMATION #######~"
+        print ""
+        print " BITS-PyOS Version: {0}".format(version)
+        print " Copyright Year:    {0}".format(copyrightYear)
+        print " Copyright Holder:  {0}".format(copyrightHolder)
+        print ""
+        print " ~### Press any key . . . ###~"
+        binput.get_key()
+        current = "main"
