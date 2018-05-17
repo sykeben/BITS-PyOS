@@ -82,8 +82,39 @@ while not quitCall:
         if currentApp = "other...":
         
             cls()
-            print " Not ready!"
-            binput.get_key()
+            print " Loading . . ."
+            temp = range(1, 9)
+            menuIDs = list()
+            for i in temp:
+                menuIDs.append(str(i))
+            for i in list("abcdefghijklmnopqrstuvwxyz"):
+                menuIDs.append(i)
+            pyFiles = [f for f in listdir("/pyos/apps") if isfile(join("/pyos/apps", f))]
+            menuItems = list()
+            itemCount = 0
+            for i in pyFiles:
+                itemCount = itemCount + 1
+                menuItems.append(i)
+            
+            cls()
+            print " ~##### OTHER . . . #####~"
+            print " [0] Back"
+            for i, j in menuItems:
+                print " [{0}] {1}".format(menuIDs[i], j)
+            print " ~## Press a key . . . ##~"
+            
+            moveOn = False
+            while not moveOn:
+                key = str(binput.get_key().key).lower()
+                appToLaunch = "none"
+                if key == "0":
+                    moveOn = True
+                for i, j in menuIDs:
+                    if key == j:
+                        appToLaunch = menuItems[i]
+            
+            if appToLaunch != "none":
+                print " You selected: {0}".format(appToLaunch)
         
         if currentApp == "testapp":
             
