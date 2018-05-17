@@ -132,6 +132,11 @@ title BITS-PyOS Bootable Disk Builder - Copying PyCode
 echo.
 xcopy /s pycode %bpos_drive%:\pyos\
 echo.
+echo Copying DSL disk image . . .
+title BITS-PyOS Bootable Disk Builder - Copying DSL Disk Image
+echo.
+copy /s dsl.iso %bpos_drive%:\dsl.iso
+echo.
 echo Generating build info . . .
 title BITS-PyOS Bootable Disk Builder - Generating Build Info
 echo BUILD INFO>%bpos_drive%:\info.txt
