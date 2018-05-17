@@ -89,7 +89,7 @@ while not quitCall:
                 menuIDs.append(str(i))
             for i in list("abcdefghijklmnopqrstuvwxyz"):
                 menuIDs.append(i)
-            pyFiles = [f for f in listdir("/pyos/apps") if isfile(join("/pyos/apps", f))]
+            pyFiles = [f for f in ld("/pyos/apps") if isfile(join("/pyos/apps", f))]
             menuItems = list()
             itemCount = 0
             for i in pyFiles:
