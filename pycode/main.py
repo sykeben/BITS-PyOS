@@ -11,6 +11,10 @@ print "- input from bits"
 from bits import input as binput
 print "- sleep from time"
 from time import sleep
+print "- listdir from os"
+from os import listdir as ld
+print "- isfile and join from os.path"
+from os.path import isfile, join
 print ""
 
 print "Defining functions . . ."
@@ -55,7 +59,8 @@ while not quitCall:
         cls()
         print " ###### APPLICATIONS ######"
         print " # [0] Back               #"
-        print " # [1] Test Application   #"
+        print " # [1] Other PyApp...     #"
+        print " # [2] Test Application   #"
         print " ##########################"
         print " Press a corrisponding key . . ."
         
@@ -68,8 +73,17 @@ while not quitCall:
                 currentApp = "quit"
                 moveOn = True
             if key == "1":
+                currentApp = "other..."
+                moveOn = True
+            if key == "2":
                 currentApp = "testapp"
                 moveOn = True
+        
+        if currentApp = "other...":
+        
+            cls()
+            print " Not ready!"
+            binput.get_key()
         
         if currentApp == "testapp":
             
