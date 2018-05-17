@@ -79,7 +79,7 @@ while not quitCall:
                 currentApp = "testapp"
                 moveOn = True
         
-        if currentApp = "other...":
+        if currentApp == "other...":
         
             cls()
             print " Loading . . ."
