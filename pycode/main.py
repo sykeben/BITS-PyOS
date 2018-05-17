@@ -112,7 +112,7 @@ while not quitCall:
                 if key == "0":
                     moveOn = True
                 temp = -1
-                for i, j in menuIDs:
+                for j in menuIDs:
                     temp = temp + 1
                     if key == j:
                         appToLaunch = menuItems[temp]
