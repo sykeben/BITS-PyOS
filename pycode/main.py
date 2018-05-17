@@ -61,6 +61,7 @@ while not quitCall:
         print " # [0] Back               #"
         print " # [1] Other PyApp...     #"
         print " # [2] Test Application   #"
+        print " #      (Internal)        #"
         print " ##########################"
         print " Press a corrisponding key . . ."
         
@@ -121,8 +122,7 @@ while not quitCall:
             
             if appToLaunch != "none":
                 cls()
-                print " You selected: {0}".format(appToLaunch)
-                binput.get_key()
+                execfile("/pyos/apps/{0}".format(appToLaunch))
         
         if currentApp == "testapp":
             
