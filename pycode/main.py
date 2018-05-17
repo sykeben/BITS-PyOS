@@ -115,6 +115,7 @@ while not quitCall:
             
             if appToLaunch != "none":
                 print " You selected: {0}".format(appToLaunch)
+                binput.get_key()
         
         if currentApp == "testapp":
             
