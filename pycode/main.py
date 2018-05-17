@@ -99,8 +99,10 @@ while not quitCall:
             cls()
             print " ~##### OTHER . . . #####~"
             print " [0] Back"
-            for i, j in menuItems:
-                print " [{0}] {1}".format(menuIDs[i], j)
+            temp = -1
+            for j in menuItems:
+                temp = temp + 1
+                print " [{0}] {1}".format(menuIDs[temp], j)
             print " ~## Press a key . . . ##~"
             
             moveOn = False
@@ -109,9 +111,11 @@ while not quitCall:
                 appToLaunch = "none"
                 if key == "0":
                     moveOn = True
+                temp = -1
                 for i, j in menuIDs:
+                    temp = temp + 1
                     if key == j:
-                        appToLaunch = menuItems[i]
+                        appToLaunch = menuItems[temp]
             
             if appToLaunch != "none":
                 print " You selected: {0}".format(appToLaunch)
