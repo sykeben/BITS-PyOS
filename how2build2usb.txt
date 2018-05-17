@@ -8,6 +8,8 @@ HOW TO BUILD BITS-PYOS TO A USB DRIVE
 [3] Copy all the files and folders from the "pycode" directory to the "pyos" folder on the USB
      drive.
 
+[4] Copy the "dsl.iso" to the root folder of the USB drive.
+
 ~ ~ ~ OR ~ ~ ~
 
 [1] WINDOWS ONLY (BETA): Use the "make_disk.bat" script in the "wintools-beta" folder.
