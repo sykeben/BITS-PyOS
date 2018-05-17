@@ -22,4 +22,4 @@ Follow the instructions in the `how2build2usb.txt` file.
 
 ### Documentation
 
-The rest of the documentation is in the `docs` folder.
+The rest of the documentation is in the `docs` folder, or [on the site here](https://sykeben.github.io/BITS-PyOS).
