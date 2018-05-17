@@ -115,7 +115,9 @@ while not quitCall:
                 for j in menuIDs:
                     temp = temp + 1
                     if key == j:
-                        appToLaunch = menuItems[temp]
+                        if temp <= len(menuItems)
+                            appToLaunch = menuItems[temp]
+                            moveOn = True
             
             if appToLaunch != "none":
                 print " You selected: {0}".format(appToLaunch)
