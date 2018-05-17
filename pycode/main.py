@@ -120,6 +120,7 @@ while not quitCall:
                             moveOn = True
             
             if appToLaunch != "none":
+                cls()
                 print " You selected: {0}".format(appToLaunch)
                 binput.get_key()
         
