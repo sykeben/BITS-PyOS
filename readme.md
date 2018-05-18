@@ -1,7 +1,7 @@
 ## BITS-PyOS
 ### BIOS-Implementation-Test-Suite-based Python Operating System
 
-<img src="media/icon_render.png" alt="BITS-PyOS Icon" style="width:32px;height:32px;">
+<img src="media/icon_render.png" alt="BITS-PyOS Icon" width="32" height="32">
 
 **Be warned!** This is a hodge-podge of BITS, SysLinux, and my own code.  
 
