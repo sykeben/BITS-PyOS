@@ -1,4 +1,4 @@
-## BITS-PyOS ![Logo](https://raw.githubusercontent.com/sykeben/BITS-PyOS/master/docs/icon.png)
+## ![Logo](https://raw.githubusercontent.com/sykeben/BITS-PyOS/master/docs/icon.png) BITS-PyOS
 BIOS-Implementation-Test-Suite-based Python Operating System
 
 ### Introduction
