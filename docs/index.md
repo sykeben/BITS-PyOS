@@ -1,4 +1,4 @@
-## ![Logo](https://raw.githubusercontent.com/sykeben/BITS-PyOS/master/docs/icon.png) BITS-PyOS
+## ![Logo](common/icon.png) BITS-PyOS
 BIOS-Implementation-Test-Suite-based Python Operating System
 
 ### Introduction
@@ -24,6 +24,12 @@ BITS-PyOS boots in a bit of a vague way to me because I don't know the boot proc
 5. The boot menu is shown.
 6. If the option to start is the BITS-PyOS UI, GRUB2 uses Python to execute the main script.
 7. If the option to start is the Interactive Python Interpreter, GRUB2 simply starts that.
+
+### Screenshots
+
+![Boot Screen](screenshots/boot.png)  
+![Startup Menu](screenshots/startupmenu.png)  
+![Main Menu](screenshots/mainmenu.png) ![Apps Menu](screenshots/appsmenu.png) ![Info](screenshots/info.png)
 
 ### Coming Soon!
 

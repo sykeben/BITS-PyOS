@@ -1,9 +1,9 @@
-## ![Logo](https://raw.githubusercontent.com/sykeben/BITS-PyOS/master/docs/icon.png) BITS-PyOS
+## ![Logo](docs/common/icon.png) BITS-PyOS
 ### BIOS-Implementation-Test-Suite-based Python Operating System
 
 **Be warned!** This is a hodge-podge of BITS, SysLinux, and my own code.  
 
-This is an Operating System based on Intel's open-source BIOS Implementation Test Suite, or BITS. BITS is a bare metal Python intepreter made for testing hardware, firmware, etc. It uses SysLinux to boot, and run my own python code as the "UI".
+This is an Operating System based on Intel's open-source BIOS Implementation Test Suite, or BITS. BITS is a bare metal Python interpreter made for testing hardware, firmware, etc. It uses SysLinux to boot, and run my own python code as the "UI".
 
 ### Links
 
@@ -12,7 +12,7 @@ This is an Operating System based on Intel's open-source BIOS Implementation Tes
 
 ### Building BITS-PyOS to a USB Drive
 
-Follow the instructions in the `how2build2usb.txt` file.
+Follow the instructions in the `build2usb.md` file.
 
 ### Advantages of BITS-PyOS
 
