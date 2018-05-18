@@ -1,7 +1,5 @@
-## BITS-PyOS
+## ![Logo](https://raw.githubusercontent.com/sykeben/BITS-PyOS/master/docs/icon.png) BITS-PyOS
 ### BIOS-Implementation-Test-Suite-based Python Operating System
-
-<center><img src="media/icon_render.png" alt="BITS-PyOS Icon" width="64" height="64"></center>
 
 **Be warned!** This is a hodge-podge of BITS, SysLinux, and my own code.  
 
