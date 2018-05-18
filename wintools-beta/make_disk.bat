@@ -121,7 +121,7 @@ cd bios
 cd win32
 echo Installing syslinux onto the drive . . .
 title BITS-PyOS Bootable Disk Builder - Installing Syslinux onto the Drive
-syslinux.exe -m -a %bpos_drive%:
+syslinux.exe -f -m -a %bpos_drive%:
 echo Changing directories . . .
 title BITS-PyOS Bootable Disk Builder - Changing Directories
 cd ..
