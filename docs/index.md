@@ -1,6 +1,9 @@
 ## ![Logo](common/icon.png) BITS-PyOS
 BIOS-Implementation-Test-Suite-based Python Operating System
 
+### IMPORTANT NOTE
+This was created a while ago, when I had no clue what I was doing. Feel free to gawk at my poor practices, and jenky docs.
+
 ### Introduction
 
 BITS-PyOS means:
